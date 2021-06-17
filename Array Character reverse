@@ -1,0 +1,18 @@
+using System;
+
+namespace Arraycharacterreverse
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            char[] c = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h' };
+            int i;
+            for(i=7;i>=0;i--)
+            {
+                Console.WriteLine(c[i]);
+
+            }
+        }
+    }
+}
